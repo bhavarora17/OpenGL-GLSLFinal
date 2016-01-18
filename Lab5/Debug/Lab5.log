@@ -1,0 +1,37 @@
+﻿Build started 12/8/2015 3:38:37 PM.
+     1>Project "C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Lab5\Lab5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ItsBhavya\Documents\Visual Studio 2013\opengl-wrappers\glm" /I"C:\Users\ItsBhavya\Documents\Visual Studio 2013\opengl-wrappers\glew-1.13.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Lab4.cpp
+         Lab4.cpp
+     1>c:\users\itsbhavya\documents\visual studio 2013\projects\lab5\lab5\lab4.cpp(1227): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\itsbhavya\documents\visual studio 2013\projects\lab5\lab5\lab4.cpp(1244): warning C4101: 'gradientTex2' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Debug\Lab5.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ItsBhavya\Documents\Visual Studio 2013\opengl-wrappers\glm" /LIBPATH:"C:\Users\ItsBhavya\Documents\Visual Studio 2013\opengl-wrappers\glew-1.13.0\lib" glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Debug\Lab5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Debug\Lab5.lib" /MACHINE:X86 /FORCE:MULTIPLE Debug\Cylinder.obj
+         Debug\Lab3Robot.obj
+         Debug\Lab4.obj
+         Debug\MazeGenerator.obj
+         Debug\ply.obj
+         Debug\plyread.obj
+         Debug\plyTraverse.obj
+         Debug\shaderSetup.obj
+         Debug\Sphere.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     1>Cylinder.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>Lab3Robot.obj : warning LNK4006: "class Cylinder c" (?c@@3VCylinder@@A) already defined in Cylinder.obj; second definition ignored
+     1>Lab4.obj : warning LNK4006: "class Graph g" (?g@@3VGraph@@A) already defined in Lab3Robot.obj; second definition ignored
+     1>Lab4.obj : warning LNK4006: "class Cylinder c" (?c@@3VCylinder@@A) already defined in Cylinder.obj; second definition ignored
+     1>Lab4.obj : warning LNK4006: "class Sphere s" (?s@@3VSphere@@A) already defined in Lab3Robot.obj; second definition ignored
+     1>Lab4.obj : warning LNK4006: "class Robot r" (?r@@3VRobot@@A) already defined in Lab3Robot.obj; second definition ignored
+     1>MazeGenerator.obj : warning LNK4006: "class Graph g" (?g@@3VGraph@@A) already defined in Lab3Robot.obj; second definition ignored
+     1>plyread.obj : warning LNK4006: "class Model obj" (?obj@@3VModel@@A) already defined in Lab4.obj; second definition ignored
+     1>plyTraverse.obj : warning LNK4006: "void __cdecl display(void)" (?display@@YAXXZ) already defined in Lab4.obj; second definition ignored
+     1>plyTraverse.obj : warning LNK4006: "unsigned int * vboHandle" (?vboHandle@@3PAIA) already defined in Lab4.obj; second definition ignored
+     1>plyTraverse.obj : warning LNK4006: "char * * string_list" (?string_list@@3PAPADA) already defined in plyread.obj; second definition ignored
+     1>Sphere.obj : warning LNK4006: "class Sphere s" (?s@@3VSphere@@A) already defined in Lab3Robot.obj; second definition ignored
+     1>C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Debug\Lab5.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+         Lab5.vcxproj -> C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Debug\Lab5.exe
+     1>Done Building Project "C:\Users\ItsBhavya\Documents\Visual Studio 2013\Projects\Lab5\Lab5\Lab5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14
